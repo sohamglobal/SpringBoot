@@ -1,0 +1,11 @@
+* Add this entry under <dependencies> of pom.xml file to enable JSP
+* Check the version of embedded tomcat of your project 
+  in reference libraries
+----------------------------------------------------
+
+<dependency>
+<groupId>org.apache.tomcat</groupId>
+<artifactId>tomcat-jasper</artifactId>    					<version>9.0.27</version>
+</dependency>
+
+
