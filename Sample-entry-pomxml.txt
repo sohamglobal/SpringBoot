@@ -10,3 +10,11 @@
 </dependency>
 
 
+* Add this entry under <dependencies> of pom.xml file to add JSTL for reporting
+----------------------------------------------------
+
+	<dependency>
+    		<groupId>jstl</groupId>
+    		<artifactId>jstl</artifactId>
+    		<version>1.2</version>
+		</dependency>
